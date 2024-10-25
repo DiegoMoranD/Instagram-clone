@@ -2,7 +2,7 @@ import React from 'react'
 
 function rigthHub() {
   return (
-    <div>rigthHub</div>
+    <div className=' w-1/2 block'>rigthHub</div>
   )
 }
 
