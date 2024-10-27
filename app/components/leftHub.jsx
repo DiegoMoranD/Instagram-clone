@@ -23,7 +23,7 @@ function leftHub() {
   ]
 
   return (
-    <div className="flex flex-col h-screen text-white p-4 border-r-[0.5px]">
+    <div className="flex flex-col h-screen text-white p-4 border-r-[1px] border-gray-400 border-opacity-25">
       <Image src={Instagram} alt="instagram" width={934} height={316} className="w-[95px] my-5 ml-1.5"></Image>
       <nav>
         <ul className="space-y-2">
