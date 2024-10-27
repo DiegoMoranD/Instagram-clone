@@ -50,7 +50,7 @@ function middleHub() {
       </div>
 
       {posts.map((post) => (
-        <div key={post} className='bg-[#000] text-white border-b-[1px] border-gray-500'>
+        <div key={post} className='bg-[#000] text-white border-b-[1px] border-gray-400 border-opacity-25'>
           <div className='flex items-center space-x-4 p-4'>
             <Image src={Avatar} alt='post' width={300} height={300} className='w-10 h-10 rounded-full'></Image>
             <span className='font-semibold'>{post.username}</span>
